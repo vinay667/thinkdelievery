@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "357927103359",
+    "project_id": "think-delivery-app",
+    "storage_bucket": "think-delivery-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357927103359:android:575d1a9e3dc5e2e3d5c84a",
+        "android_client_info": {
+          "package_name": "com.sparx.thinkdelievery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357927103359-md4p51r3jn15k5iuhusqdf1sq5opjmtl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnXu7vPsG_FLjVWgEl8vo-o2S5SIulj5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357927103359-md4p51r3jn15k5iuhusqdf1sq5opjmtl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

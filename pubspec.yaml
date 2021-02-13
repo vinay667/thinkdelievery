@@ -1,0 +1,194 @@
+name: thinkdelievery
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  flutter_dash: ^0.0.1
+  google_maps_flutter: ^0.5.33
+  bubble: ^1.1.9+1
+  cached_network_image: ^2.2.0+1
+  dio: ^3.0.9
+  image_picker: ^0.6.7+4
+  url_launcher: ^5.5.0
+  intl: ^0.16.1
+  geolocator: ^6.1.13
+  flutter_paginator: ^0.0.6
+  connectivity: ^0.4.2
+  permission_handler: ^5.0.1+1
+  toast: ^0.1.5
+  http: ^0.12.0+4
+  shared_preferences: ^0.5.7+3
+  maps_curved_line: ^0.1.1
+  flutter_slidable: ^0.5.7
+  flutter_datetime_picker: ^1.4.0
+  firebase_messaging: ^6.0.16
+  flutter_rating_bar: ^3.2.0+1
+  flutter_local_notifications: ^1.4.4+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/app_icon.png
+    - images/globe_bottom.png
+    - images/globe_top.png
+    - images/cross_rect.png
+    - images/arrow_right.png
+    - images/package_icon.png
+    - images/dum_men.jpg
+    - images/del_icon.png
+    - assets/map_style.txt
+    - images/dummy_gal.png
+    - images/calender_ic.png
+    - images/loc_white.png
+    - images/loc_set.png
+    - images/power_set.png
+    - images/faq_set.png
+    - images/not_set.png
+    - images/home_ict.png
+    - images/edit_profile.png
+    - images/ham_set.png
+    - images/info_set.png
+    - images/office_address.png
+    - images/card_set.png
+    - images/username_ic.png
+    - images/lock_set.png
+    - images/loc_trip.png
+    - images/edit_ic_blue.png
+    - images/pin_map.png
+    - images/google_icon.png
+    - images/cross_white.png
+    - images/rating_fill.png
+    - images/rating_empty.png
+    - images/add_red.png
+    - images/bicycle_ic.png
+    - images/bike_icon.png
+    - images/car_icon.png
+    - images/man_icon.png
+    - images/back_black_icon.png
+    - images/del_bike.png
+    - images/coupon.png
+    - images/loc_red.png
+    - images/locv_red.png
+    - images/search_ic.png
+    - images/history_ic.png
+    - images/home_ic.png
+    - images/office_ic.png
+    - images/call_ic.png
+    - images/mes_ic.png
+    - images/message_ic.png
+    - images/full_ic.png
+    - images/del_right.png
+    - images/home_nav.png
+    - images/order_nav.png
+    - images/not_nav.png
+    - images/set_nav.png
+    - images/green_dot.png
+    - images/star_green.png
+    - images/chat_nav.png
+    - images/chat_send.png
+    - images/chat_smile.png
+    - images/visa.png
+    - images/map_dum.jpg
+    - images/gift_dummy.jpg
+    - images/men2.jpg
+    - images/c3.jpg
+    - images/g1.jpg
+    - images/box_dumm.jpg
+    - images/driver_dummy.jpg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: fonts/OpenSans-Regular.ttf
+        - asset: fonts/OpenSans-ExtraBold.ttf
+          weight: 900
+        - asset: fonts/OpenSans-Bold.ttf
+          weight: 700
+        - asset: fonts/OpenSans-SemiBold.ttf
+          weight: 600
+        - asset: fonts/OpenSans-Light.ttf
+          weight: 500
+
+
+    - family: MontserratAlternates
+      fonts:
+        - asset: fonts/MontserratAlternates-Regular.otf
+        - asset: fonts/MontserratAlternates-Black.otf
+          weight: 900
+        - asset: fonts/MontserratAlternates-Bold.otf
+          weight: 700
+        - asset: fonts/MontserratAlternates-SemiBold.otf
+          weight: 600
+        - asset: fonts/MontserratAlternates-Light.otf
+          weight: 500
+
+
+    - family: George
+      fonts:
+        - asset: fonts/GeorgiaRegularFont.ttf
+        - asset: fonts/GeorgiaBold.ttf
+          weight: 700
+
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
